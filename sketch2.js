@@ -1,8 +1,9 @@
 background (255);  
 
-var b = 0
+while(true){
+  var b = 0
  
-  while(b < 340){
+  while(b < 260){
   
   stroke(0);
   noFill();
@@ -12,3 +13,4 @@ var b = 0
     rect(89 + b, 89 , 21, 21)
    b = b + 10
   }
+}
